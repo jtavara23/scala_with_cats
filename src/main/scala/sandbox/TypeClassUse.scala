@@ -40,4 +40,5 @@ class TypeClassUseV2 {
   val result: Json = Person("Josue", 34).toJson
   //  JsObject(Map(NAME -> JsString(Josue), AGE -> JsInt(34)))
 
+  val result2: Json = Option("Whatever").toJson
 }

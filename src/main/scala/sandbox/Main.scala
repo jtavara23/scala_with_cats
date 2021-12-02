@@ -13,5 +13,5 @@ object Main extends App {
   • implicit classes: optional utilities that make type classes easier to use.
    * */
 
-  //  println(new TypeClassUseV2().result)
+  println(new TypeClassUseV2().result2)
 }
