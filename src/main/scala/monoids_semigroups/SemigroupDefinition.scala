@@ -1,6 +1,6 @@
 package monoids_semigroups
 
-object Semigroup {
+object SemigroupDefinition {
 
   /*
   * A semigroup is just the combine part of a monoid, without the empty part.
@@ -21,5 +21,7 @@ object Semigroup {
   trait Monoid[A] extends Semigroup[A] {
     def empty: A
   }
+
+
 }
 
