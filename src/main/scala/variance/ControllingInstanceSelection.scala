@@ -1,6 +1,6 @@
 package variance
 
-import sandbox.{JsInt, JsObject, JsString}
+import sandbox_chp1.{JsInt, JsObject, JsString}
 
 
 object ControllingInstanceSelection extends App {
@@ -30,8 +30,8 @@ object ControllingInstanceSelection extends App {
   * allows us modelling types that represent inputs
   * */
 
-  import sandbox.JsonSerializer
-  import sandbox.Json
+  import sandbox_chp1.JsonSerializer
+  import sandbox_chp1.Json
 
   val shape: Shape = Circle(3.3)
   val circle: Circle = Circle(2.4)

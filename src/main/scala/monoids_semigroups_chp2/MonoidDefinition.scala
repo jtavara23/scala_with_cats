@@ -1,4 +1,4 @@
-package monoids_semigroups
+package monoids_semigroups_chp2
 
 
 trait MonoidDefinition[A]{

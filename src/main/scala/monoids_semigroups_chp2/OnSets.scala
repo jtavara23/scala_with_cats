@@ -1,4 +1,4 @@
-package monoids_semigroups
+package monoids_semigroups_chp2
 
 /*
 * The monoid type class is cats.kernel.Monoid, which is aliased as

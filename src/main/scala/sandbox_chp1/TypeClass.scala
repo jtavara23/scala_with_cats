@@ -1,4 +1,4 @@
-package sandbox
+package sandbox_chp1
 
 //Abstract Type
 sealed trait Json

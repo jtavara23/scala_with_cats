@@ -1,4 +1,4 @@
-package sandbox
+package sandbox_chp1
 
 import cats.instances.string._
 import cats.syntax.semigroup._
