@@ -22,8 +22,8 @@ object MonoidExercise extends App {
   // res10: Int = 6
 
   //--------------------------------------------------
-  import cats.instances.option._ // for Monoid
-  add(List(Some(1), Some(2), Some(3))) // this is wrong
+//  import cats.instances.option._ // for Monoid
+//  add(List(Some(1), Some(2), Some(3))) // this is wrong
   /*
     error: could not find implicit value for evidence parameter of type
       cats.Monoid[Some[Int]]
